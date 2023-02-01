@@ -1,3 +1,44 @@
 body{
-    background-color: blueviolet;
+    width: 1000px;
+    margin: auto;
+    background-image: url(./img/back.jpg);
+}
+header{
+    background-color: aqua;
+    text-align: center;
+    margin:10px;
+    padding: 10px;
+}
+nav{
+    background-color: aquamarine;
+    text-align: Left;
+    float: left;
+    width: 20%;
+ 
+}
+ul{
+    list-style-type: none;
+}
+li{
+        padding: 10px;
+}
+article{
+    background-color: silver;
+    margin:10px;
+    padding: 10px;
+}
+section{
+    background-color: silver;
+    float: left;
+    width: 40%;
+    margin:10px;
+    padding: 10px;
+}
+
+aside{
+    background-color: silver;
+    float: left;
+    width: 40%;
+    margin:10px;
+    padding: 10px;
 }
