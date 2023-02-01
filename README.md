@@ -1,2 +1,2 @@
 # prooktatas-czenczer
-# saját gépemen írtam hozzá
+# saját gépemen írtam hozzá.
