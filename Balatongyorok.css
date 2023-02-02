@@ -4,17 +4,22 @@ body {
     background-image: url(./img/back.jpg);
     background-repeat: no-repeat;
     background-size: 1500px 800px;
-    }
-header {
-    background-color: aqua;
-    text-align: center;
 }
 
+header {
+    background-color: #5B9Cea;
+    text-align: center;
+    background-image: url('/img/panorama.jpg');
+    border-image: 10%;
+    width: 80%;
+    background-size:40pc;
+}
 section {
     background-color: #5B9Cea;
     float: left;
     width: 45%;
     margin: 10px;
+    
 }
 
 aside {
@@ -24,29 +29,18 @@ aside {
     margin: 10px;
 }
 
-
-footer {
-    clear: left;
-}
-
-.jobb {
-    float: left;
-}
-
-. table,
-th,
-td,
-tr {
+table,th,td,tr {
+    padding: 1px 20px 1px 20px;
+    margin: 1px 1px 1px 1px;
     border-collapse: wide;
     text-align: center;
 }
 
-td,
-th {
+tr {
+    background-color: #B0D1F1;
+}
+
+td,th {
     border: 1px solid black;
 }
 
-tr {
-    background-color: #B0D1F1;
-    margin: auto;
-}
