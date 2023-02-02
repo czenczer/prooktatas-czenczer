@@ -1,8 +1,10 @@
 body {
-    width: 80%;
+    width: 1000px;
     margin: auto;
-}
-
+    background-image: url(./img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px 800px;
+    }
 header {
     background-color: aqua;
     text-align: center;
@@ -11,14 +13,14 @@ header {
 section {
     background-color: #5B9Cea;
     float: left;
-    width: 40%;
+    width: 45%;
     margin: 10px;
 }
 
 aside {
     background-color: #5B9Cea;
     float: left;
-    width: 40%;
+    width: 45%;
     margin: 10px;
 }
 
