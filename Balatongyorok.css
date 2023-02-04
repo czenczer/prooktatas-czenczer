@@ -1,6 +1,4 @@
 body {
-    width: 1000px;
-    margin:auto;
     background-image: url(./img/back.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,16 +6,18 @@ body {
     background-position: center;
 }
 
-h1 {
-    padding: auto;
-    text-align: left;
+.torzs {
+    width: 1000px;
+    margin: auto;
 }
 
-h1 {
-    padding-top: -10%;
+.header {
+    min-width: 650px;
+    max-width: 1000px;
 }
 
 header {
+    width: 450px;
     background-color: #5B9Cea;
     text-align: center;
 }
@@ -33,6 +33,7 @@ h3 {
 }
 
 section {
+    width: 450px;
     background-color: #5B9Cea;
     float: left;
     width: 45%;
@@ -40,7 +41,8 @@ section {
 }
 
 aside {
-    background-color: #5B9Cea;
+    width: 450px;
+    background-color: #5B9CEA;
     float: left;
     width: 45%;
     margin: 2%;
@@ -50,19 +52,11 @@ table,
 th,
 td,
 tr {
-    padding: 1px 10px 1px 10px;
-    margin: 1px 10px 1px 10px;
+    width: 450px;
     border-collapse: wide;
     text-align: center;
-}
-
-tr {
     background-color: #B0D1F1;
-}
-
-td,
-th {
-    border: 1px solid black;
+    Border: 1px solid black;
 }
 
 .image {
@@ -72,7 +66,7 @@ th {
     height: 10px;
 }
 
-#pic {
+#picture {
     width: 100%;
     height: 200px;
 }
@@ -87,7 +81,7 @@ th {
     height: 10px;
 }
 
-#pic2 {
+#picture2 {
     width: 100%;
     height: 150px;
 }
