@@ -6,7 +6,7 @@ body {
     background-position: center;
 }
 
-.torzs {
+#torzs {
     width: 1000px;
     margin: auto;
 }
@@ -16,10 +16,29 @@ body {
     max-width: 1000px;
 }
 
-header {
-    width: 450px;
-    background-color: #5B9Cea;
-    text-align: center;
+.image {
+    width:auto;
+    padding: 5px;
+    height: 10px;
+}
+
+.picture {
+    width: 100%;
+    height: 200px;
+}
+
+.image2 {
+    mix-blend-mode: multiply;
+    float: right;
+    width: 15%;
+    padding: 2px;
+    margin: 15px;
+    height: 10px;
+}
+
+.picture2 {
+    width: 100%;
+    height: 150px;
 }
 
 nav {
@@ -33,55 +52,31 @@ h3 {
 }
 
 section {
-    width: 450px;
+    padding: 15px;
+    width: 400px;
     background-color: #5B9Cea;
     float: left;
     width: 45%;
-    margin: 2%;
+    margin: 10px;
+}
+
+h2 {
+    text-align: center;
+    padding-left: 5%;
 }
 
 aside {
-    width: 450px;
+    padding: 15px;
+    width: 400px;
     background-color: #5B9CEA;
     float: left;
     width: 45%;
-    margin: 2%;
+    margin: 10px;
 }
 
-table,
-th,
-td,
-tr {
+table,th,td,tr {
+    border-collapse:collapse;
     width: 450px;
-    border-collapse: wide;
-    text-align: center;
     background-color: #B0D1F1;
     Border: 1px solid black;
-}
-
-.image {
-    float: left;
-    width: 100%;
-    padding: 5px;
-    height: 10px;
-}
-
-#picture {
-    width: 100%;
-    height: 200px;
-}
-
-.image2 {
-    mix-blend-mode: multiply;
-    float: right;
-    width: 15%;
-    padding: 1px;
-    margin: 15px;
-    object-position;
-    height: 10px;
-}
-
-#picture2 {
-    width: 100%;
-    height: 150px;
 }
