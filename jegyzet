@@ -1,0 +1,23 @@
+input[type=text]{
+   margin: auto;
+    color:blueviolet;
+    background-color: #ecec24;
+    }
+
+input[type=date]{
+    width:50%;
+    color:blueviolet;
+    background-color: #ecec24;
+}
+input[type=email]{
+   
+    background-color: #ecec24;
+}
+input[type=password]{
+   
+    background-color: #ecec24;
+}
+
+textarea{
+    background-color: #d0f0ed;
+}
