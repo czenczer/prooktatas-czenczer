@@ -17,7 +17,7 @@ h1{
     width:600%;
     font-weight: 100;
     margin: auto;
-    padding: 1% 1% 1% 30% ;
+    padding: 5% 1% 2% 25% ;
 }
 
 input,label{
@@ -44,7 +44,7 @@ input[type=text]{
 }
 
 input[type=date]{
-    width:38%;
+    width:32.3%;
     color:gray;
     background-color: snow;
 }
