@@ -1,0 +1,89 @@
+body{
+    width: 70%;
+    margin: auto;
+    background-image: url(./img/tenger.webp);
+    background-size: cover;
+}
+
+.header{
+    height: 500px;
+}
+
+.bal{
+   
+   height: 800px;
+   width: 1000px;
+    margin: auto;
+   
+}
+
+a{
+    color: red;
+    text-decoration: none;
+    transition: background-color 2s;
+}
+
+@media screen and (min-width:900px) {
+    .bal {
+        width: 28%;
+        float: left;
+    }
+    
+}
+
+
+
+
+
+@keyframes  nap{
+    0%   { top: 0px;  left: 0px;}
+    10%  { top: 10px; left: 50px;}
+    20%  { top: 20px; left: 20px;}
+    30%  { top: 30px; left: 30px;}
+    40%  { top: 40px; left: 40px;}
+    50%  { top: 50px; left: 50px;}
+    60%  { top: 60px; left: 60px;}
+    70%  { top: 70px; left: 70px;}
+    80%  { top: 80px; left: 80px;}
+    90%  { top: 90px; left: 90px;}
+    100%  { top: 100px; left: 100px;}
+}
+
+.nap{
+    mix-blend-mode: multiply;
+    position: relative;
+    animation-name: nap;
+    animation-duration: 5s;
+}
+@keyframes  hajó{
+    from   {botton: 10px; left: 0px; }
+    to { left: 80%;; bottom: -100px; }
+}
+
+.hajó{
+    height: 300px;
+    width: ;
+    padding: 700px;
+    mix-blend-mode: multiply;
+    position: relative;
+    animation-name: hajó;
+    animation-duration: 5s;
+}
+ul{
+    list-style: none;
+    width: 80%;
+    background-color: aqua;
+    position: sticky;
+    top:  10px;
+}
+li{
+    border: 3px solid red;
+    float: left;
+}
+
+li a:{
+       color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    transition: background-color 2s;
+}

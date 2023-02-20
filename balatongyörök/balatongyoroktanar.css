@@ -10,7 +10,7 @@ body{
 .header{
     width: 90%;
         background-image: url(./img/panorama.jpg);
-    background-repeat: no-repeat;
+            background-repeat: no-repeat;
         background-position: center;
         background-size: cover; 
     height: 200px;
@@ -68,6 +68,7 @@ body{
 a{
     color: red;
     text-decoration: none;
+    transition: background-color 2s;
 }
 a:hover{
     color: black;
@@ -107,4 +108,50 @@ a:hover{
         color:red;
     }
 } 
- 
+
+@keyframes beuszas{
+    0%   { left: 0px;  top: 0px;}
+    33%  { left: 10px; top: 50px;}
+    66%  { left: 20px; top: 80px;}
+    80%  { left: 30px; top: 100px;}
+    100% { left: 25px; top: 85px;}
+}
+h1{
+    position: relative;
+    animation-name: beuszas;
+    animation-duration: 3s;
+}
+@keyframes  madar{
+    from   { top: 10px; left: 0px; }
+    to { left: 80%;; bottom: -100px; }
+}
+.madar{
+    mix-blend-mode: multiply;
+    position: relative;
+    animation-name: madar;
+    animation-duration: 5s;
+}
+ul{
+    list-style: none;
+    width: 80%;
+    background-color: aqua;
+    position: sticky;
+    top:  10px;
+}
+li{
+    border: 1px solid red;
+    float: left;
+}
+
+li a:{
+   
+    color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    transition: background-color 2s;
+}
+
+li a:hover{
+    color: black;
+    background-color: #5B9CEA;
+}
