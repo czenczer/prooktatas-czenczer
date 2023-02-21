@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title> Első weboldalam 2</title>
+    <style>
+        ol {
+            background-image: linear-gradient(to right, white, green);
+        }
+
+        h1 {
+            border-style: dotted dashed solid double;
+        }
+
+        ul {
+            background-image: radial-gradient(farthest-side at 60% 55%, white, purple, yellow, silver);
+        }
+
+        table,
+        th,
+        td,
+        tr {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- <h1>főcím 1</h1>
+        <h2>főcím 2</h2>
+        <h3>főcím 3</h3>
+        <h4>főcím 4</h4>
+        <h5>főcím 5</h5>
+        <h6>főcím 6</h6>-->
+    <!--számozott lista -->
+    <ol>
+        <li>első elem</li>
+        <li>második elem</li>
+        <li>harmadik elem</li>
+    </ol>
+    <!--számozatlan lista -->
+    <ul>
+        <li>számozatlan lista1</li>
+        <li>számozatlan lista2</li>
+        <li>számozatlan lista3</li>
+    </ul>
+
+    <!--számozatlan lista egymásba ágyazása-->
+    <ul>
+        <li>számozatlan</li>
+        <li>számozatlan</li>
+        <ol>
+            <li>számozott 01</li>
+            <li>számozott 02</li>
+        </ol>
+    </ul>
+
+    <!--definiciós lista -->
+    <!--
+<dl>
+    <dt>HTML</dt>
+    <dd> legismertebb jejölőnyelv</dd>
+    <dt> CSS </dt>
+</dl> -->
+
+    <!--pekezdés -->
+    <p>
+        <!-- első bekezdésem <hr> ha <br>egy hoszabb szöveget -->
+    </p>
+    <!--táblázatok -->
+    <h1>Táblázatok </h1>
+    <table border="collapse">
+        <caption> táblázat cím </caption>
+        <tr>
+            <th> első sor első olszlop</th>
+            <td> első sor második olszlop</td>
+            <td> első sor harmadik olszlop</td>
+        </tr>
+        <tr>
+            <th> második sor első olszlop</th>
+            <td> második sor második olszlop</td>
+            <td colspan="3"> második sor harmadik olszlop</td>
+        </tr>
+        <tr>
+            <th> harmadik sor első olszlop</th>
+            <td> harmadik sor második olszlop</td>
+            <td> ggg</td>
+        </tr>
+    </table>
+
+    <h1>Táblázatok feladat </h1>
+    <table>
+        <caption> táblázat cím </caption>
+        <tr>
+            <th> Product </th>
+            <th> Flavors</th>
+        </tr>
+        <tr>
+            <td rowspan="3">Milk </td>
+            <td> Almond </td>
+        </tr>
+        <tr>
+            <td> Mango </td>
+        </tr>
+        <tr>
+            <td> Chocolate </td>
+        </tr>
+        <tr>
+            <td colspan="2"> These are axclusive flavor </td>
+        </tr>
+    </table>
+
+    <h1>Táblázatok feladat 2 </h1>
+    <table>
+        <caption> Time Table </caption>
+        <tr>
+            <th rowspan="6"> Hours </th>
+            <th> Mon </th>
+            <th> Tue </th>
+            <th> Wed </th>
+            <th> Thu</th>
+            <th> Fri</th>
+        </tr>
+        <tr>
+            <td> Science </td>
+            <td> Maths </td>
+            <td> Science </td>
+            <td> Maths </td>
+            <td> Arts </td>
+
+        </tr>
+        <tr>
+            <td> Social </td>
+            <td> History </td>
+            <td> English </td>
+            <td> Social </td>
+            <td> Sports </td>
+        </tr>
+        <tr>
+            <th colspan="5"> Lunch </th>
+        </tr>
+        <tr>
+            <td> Science </td>
+            <td> Maths </td>
+            <td> Science </td>
+            <td> Maths </td>
+            <td rowspan="2"> Project </td>
+
+        </tr>
+        <tr>
+            <td> Social </td>
+            <td> History </td>
+            <td> English </td>
+            <td> Social </td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>

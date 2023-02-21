@@ -1,0 +1,39 @@
+body{
+    background-color: azure;
+    width: 70%;
+    margin: auto;
+    
+}
+.table {
+    border: 1px solid silver;     
+}
+.table2 {
+    border: 1px solid silver;
+   
+ }
+td {
+    border: 1px solid silver;
+           text-align: center;
+}
+li{
+    list-style-type: none;
+}
+.kép1{
+    transform: translate(15px,20px);
+}
+.kép2{
+    transform: rotate(-90deg);
+}
+.kép3{
+    transform: scale(0.5,1);
+}
+.kép4{
+    transform: skew(20deg);
+}
+.kép5{
+    transform: matrix(-0.66, -0.24, -0.62, 0.84, 50, 0);
+}
+.kép6{
+    transform: matrix(1.2, 0.2, -1, 0.9, 0, 20);
+   
+}

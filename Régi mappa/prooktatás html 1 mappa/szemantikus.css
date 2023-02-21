@@ -1,0 +1,37 @@
+body{
+    width: 70%;
+    margin: auto;
+}
+header{
+    background-color: aqua;
+    text-align: center;
+}
+nav{
+    background-color: aquamarine;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    padding: 10px;
+}
+article{
+    background-color:aqua;
+}
+section{
+    background-color: bisque;
+}
+aside{
+    background-color: blueviolet;
+    }
+    
+.bal{
+    float: left;
+    width: 60%;
+}
+footer{
+    background-color:chartreuse;
+    clear: left;
+}

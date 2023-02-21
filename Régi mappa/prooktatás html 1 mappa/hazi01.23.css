@@ -1,0 +1,25 @@
+body {
+    width: 80%;
+    margin: auto;
+}
+
+table,
+th,
+td,
+tr {
+    border-collapse: wide;
+}
+
+td,
+{
+width: 100px;
+}
+
+td,
+th {
+    border: 1px solid black;
+}
+
+th {
+    width: 130px;
+}

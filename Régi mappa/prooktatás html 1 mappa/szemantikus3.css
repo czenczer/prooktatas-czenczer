@@ -1,0 +1,41 @@
+body{
+    width: 70%;
+    margin: auto;
+}
+header{
+    background-color: aqua;
+    text-align: center;
+}
+nav{
+    background-color: aquamarine;
+    text-align: Left;
+    float: left;
+    width: 20%;
+ 
+}
+ul{
+    list-style-type: none;
+}
+li{
+        padding: 10px;
+}
+article{
+    background-color:aqua;
+}
+section{
+    background-color: bisque;
+    float: left;
+    width: 60%;
+}
+
+aside{
+    background-color: blueviolet;
+    float: left;
+    width: 20%;
+}
+
+
+footer{
+    background-color:chartreuse;
+    clear: left;
+}

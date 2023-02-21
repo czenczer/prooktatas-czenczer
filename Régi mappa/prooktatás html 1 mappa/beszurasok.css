@@ -1,0 +1,91 @@
+body {
+    width: 80%;
+    margin: auto;
+    background-image: url(./media/eminem.jfif);
+    background-repeat: no-repeat;
+}
+
+h2 {
+    color: red;
+    font-size: xx-small;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1,
+h3 {
+    background-color: aqua;
+    padding: 20px 20px 20px 20px;
+    border: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+    text-align: center;
+    paddin
+}
+
+#monitor {
+    background-color: silver;
+
+}
+
+.bekezdes1 {
+    background-color: slateblue;
+}
+
+.bekezdes2 {
+    background-color: darkgreen;
+    font-size: xx-large;
+}
+
+.elso {
+    color: blueviolet;
+}
+
+a:link {
+    color: darkslategrey;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+#arnyek1 {
+    text-shadow: 15px -5px 5px red;
+}
+
+#arnyek2 {
+    text-shadow: 15px -5px 5px red, 7px 7px 7px blue;
+}
+
+#lista {
+    list-style-type: upper-roman;
+}
+
+#lista2 {
+    list-style-type: georgian;
+}
+
+#lista3 {
+    list-style-image: url(./media/kicsi.jpeg)
+}
+
+#behuzas1 {
+    text-indent: 35px;
+    text-decoration: underline;
+    text-decoration-color: brown;
+    text-decoration-style: wavy;
+    border-color: ridge;
+
+    border-radius: 10px;
+}
+
+#arnyekdoboz {
+    box-shadow: 5px 5px 10px 1px blue inset;
+}
+
+#arnyekdoboz2 {
+    box-shadow: 5px 5px 10px 1px blue;
+}
