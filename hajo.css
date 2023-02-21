@@ -1,6 +1,6 @@
 body{
     width: 80%;
-    background-image: url(./img/tenger.webp);
+    background-image: url(./img/web2képek/tenger88.png);
     background-size: cover;
 }
 
@@ -58,8 +58,8 @@ li{
 
 .nap{
     width: 100px;
-    height: 10px;
-    padding: 10px;
+    height: 25px;
+    padding: 40px;
     position: relative;
     animation-name: nap;
     animation-duration: 5s;
@@ -74,7 +74,7 @@ li{
     margin-top: 200px;
     width: 250px;
     height: 100px;
-    padding: 50px;
+    padding: 10px;
     transform: rotatey(150deg);
     position: relative;
     animation-name: hajó;
