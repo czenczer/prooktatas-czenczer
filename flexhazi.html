@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexboxházi</title>
+    <style>
+
+        * {
+          box-sizing: border-box;
+        }
+        
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        header {
+          background-color: green;
+          padding: 20px;
+          text-align: center;
+          font-size: 25px;
+          color: white;
+        }
+        
+         nav {
+          width: 100%;
+          background: #ccc;
+          padding: 5px;
+        }
+            
+        article {
+          float:right;
+          padding: 20px;
+          width: 50%;
+          background-color: #f1f1f1;
+          text-align: justify;
+          
+        }
+        section {
+          float:left;
+          padding: 20px;
+          width: 50%;
+          background-color: #f1f1f1;
+          text-align: justify;
+        }
+                       
+         footer {
+          background-color: green;
+          padding: 1px;
+          text-align: center;
+          color: white;
+        }
+        
+        @media (max-width: 600px) {
+          article {
+            width: 100%;
+            height: auto;
+          }
+          section {
+            width: 100%;
+            height: auto;
+          }
+}
+      .container {
+          display: flex;
+          flex-direction: row;
+          font-size: 20px;
+          text-align: center;
+       }
+
+      .left {
+          background-color: dodgerblue;
+          padding: 10px;
+          flex: 10%;
+          margin: 10px;
+          margin-left: 30px;
+      }
+
+      .center {
+          background-color: dodgerblue;
+          padding: 10px;
+          flex: 10%;
+          margin: 10px;
+          margin-left: 30px;
+      }
+
+      .right {
+          background-color: dodgerblue;
+          padding: 10px;
+          flex: 10%;
+          margin: 10px;
+          margin-left: 30px;
+        }
+
+      @media (max-width: 800px) {
+         .container {
+         flex-direction: column;
+         flex: 10%;
+         width: 30%;
+         margin: auto;
+         padding: 1px;
+         font-size: 10px;
+         color: aliceblue;
+          }
+}
+
+        a{
+          text-decoration: none;
+          transition: background-color 0s;
+        }
+
+        a:hover{
+          background-color: green;
+        }
+
+    
+
+
+        </style>
+</head>
+<body>
+      
+    <header>
+      <h2>Autók</h2>
+    </header>
+    
+    
+      <nav>
+        <div class="container">
+          <div class="left">
+            <a href="./balatongyoroktanar.html">Vásárlás</a>  
+          </div>
+          
+          <div class="center">
+            <a href="./hajo.html">Szervíz</a>
+          </div>
+          <div class="right">
+            <a href="./urlap2.html">Kapcsolatok</a>
+          </div>
+        </div>
+      </nav>
+      
+      <section>  
+        <aside>
+        <h1>Section Első szakasz</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel molestiae est quos eius, qui vero. Alias adipisci tenetur harum non ratione reiciendis officiis? Magni porro dignissimos rerum, iusto dolores ipsa.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel molestiae est quos eius, qui vero. Alias adipisci tenetur harum non ratione reiciendis officiis? Magni porro dignissimos rerum, iusto dolores ipsa.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel molestiae est quos eius, qui vero. Alias adipisci tenetur harum non ratione reiciendis officiis? Magni porro dignissimos rerum, iusto dolores ipsa.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel molestiae est quos eius, qui vero. Alias adipisci tenetur harum non ratione reiciendis officiis? Magni porro dignissimos rerum, iusto dolores ipsa.</p>
+        
+      </aside>
+      </section>
+
+      <article>
+        <aside>
+        <h1>Article Második szakasz</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel molestiae est quos eius, qui vero. Alias adipisci tenetur harum non ratione reiciendis officiis? Magni porro dignissimos rerum, iusto dolores ipsa.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel molestiae est quos eius, qui vero. Alias adipisci tenetur harum non ratione reiciendis officiis? Magni porro dignissimos rerum, iusto dolores ipsa.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel molestiae est quos eius, qui vero. Alias adipisci tenetur harum non ratione reiciendis officiis? Magni porro dignissimos rerum, iusto dolores ipsa.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel molestiae est quos eius, qui vero. Alias adipisci tenetur harum non ratione reiciendis officiis? Magni porro dignissimos rerum, iusto dolores ipsa.</p>
+        
+      </aside>
+      </article>
+   
+    
+    <footer>
+      <p>Footer</p>
+    </footer>
+    <div>
+      anime
+    </div>
+    <footer>
+      <p>Footer2</p>
+    </footer>
+    
+    </body>
+</html>
