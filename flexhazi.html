@@ -14,10 +14,14 @@
         body {
           font-family: Arial, Helvetica, sans-serif;
         }
-        
+
+        h1{
+          text-align: center;
+          color: red;
+        }
         header {
           background-image: linear-gradient(to right, yellow, green);
-          padding: 20px;
+          padding: 10px;
           text-align: center;
           font-size: 25px;
           color: white;
@@ -25,32 +29,39 @@
         
          nav {
           width: 100%;
-          background: #ccc;
+          background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(0, 8, 251));
           padding: 5px;
         }
             
         article {
           float:right;
           padding: 20px;
-          width: 50%;
+          width: 49%;
           background-color: azure;
           text-align: justify;
+          margin:  2px;
+          margin-right: 10px;
+          margin-top: 10px;
           
         }
         section {
           float:left;
           padding: 20px;
-          width: 50%;
+          width: 49%;
           background-color: azure;
           text-align: justify;
+          margin:  2px;
+          margin-left: 10px;
+          margin-top: 10px;
         }
+        
                        
          footer {
           background-image: linear-gradient(to right, yellow, green);
           padding: 1px;
           text-align: center;
           color: white;
-        }
+          }
         
         @media (max-width: 600px) {
           article {
@@ -60,6 +71,12 @@
           section {
             width: 100%;
             height: auto;
+          }
+          .audi{
+            display: none;
+          }
+          .audi2{
+            display: none;
           }
 }
       .container {
@@ -72,7 +89,7 @@
       .left {
         background-image: linear-gradient(to right, yellow, green);
           padding: 10px;
-          flex: 10%;
+          flex: 30%;
           margin: 10px;
           margin-left: 30px;
       }
@@ -80,7 +97,7 @@
       .center {
         background-image: linear-gradient(to right, yellow, green);
           padding: 10px;
-          flex: 10%;
+          flex: 30%;
           margin: 10px;
           margin-left: 30px;
       }
@@ -88,7 +105,7 @@
       .right {
         background-image: linear-gradient(to right, yellow, green);
           padding: 10px;
-          flex: 10%;
+          flex: 30%;
           margin: 10px;
           margin-left: 30px;
         }
@@ -114,15 +131,72 @@
           background-color: green;
         }
 
-    
+        @keyframes  audi{
+        from {left: 10px;}
+        to {left: 400px;}
+}
 
+.audi{
+  transform: rotatey(160deg);
+    position: relative;
+    animation-name: audi;
+    animation-duration: 10s;
+    border: 1px solid red;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.aside1 {
+          float:left;
+        }
+.aside2 {
+          float:right;  
+        }
+
+        @keyframes  audi2{
+        from {left: -400px;}
+        to {left: 0px;}
+}
+
+.audi2{
+  transform: rotatey(360deg);
+    position: relative;
+    animation-name: audi2;
+    animation-duration: 10s;
+    border: 1px solid red;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
 
         </style>
 </head>
 <body>
       
     <header>
-      <h2>Autók</h2>
+      
+      
+        <div class="aside1">
+          <div class="audi">         
+            <img src="./img/audi tt.png" width="300" height="120" alt="hiba">
+          </div>  
+        </div>
+        
+      
+
+      
+        <div class="aside2">
+          <div class="audi2">         
+            <img src="./img/audi tt.png" width="300" height="120" alt="hiba">
+          </div>  
+        </div>
+        
+      
+      
+      <h2>AUDI</h2>
+
+
+
     </header>
     
     
@@ -163,16 +237,11 @@
       </aside>
       </article>
    
+  
+
     
     <footer>
-      <p>Footer</p>
+        <img src="./img/audi logo.png"  width="300" height="120" alt="hiba">
     </footer>
-    <div>
-      anime
-    </div>
-    <footer>
-      <p>Footer2</p>
-    </footer>
-    
     </body>
 </html>
