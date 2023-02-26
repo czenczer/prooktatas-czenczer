@@ -4,13 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Flex</title>
 
     <style>
+        .container{
+            background-color: blanchedalmond;   
+            width: 500px;
+            display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-content: center;            
+           
+        }
+
+        div div{
+            background-color: #946060;
+            padding: 25px;
+            margin: 5px;
+        }
+        
+        .container2{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap; 
+            height: 100px;
+            background-color: blanchedalmond; 
+        }
         
     </style>
 </head>
 <body>
+    <div class="container">
+        <div>első</div>
+        <div>második</div>
+        <div>harmadik</div>
+    </div>   
+    
+    <div class="container2">
+        <div>negyedik</div>
+        <div>ötödik</div>
+
+    </div>
     
 </body>
 </html>
