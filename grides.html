@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS gread </title>
+    <style>
+
+    .container{
+        background-color: azure;
+        display: grid;
+        grid-template-columns: repeat(4, 20%);
+        grid-template-areas: 
+            "header header header header"
+            "left left main main"
+            "left left  right right"
+            "footer footer footer footer";
+
+        column-gap: 25px;
+        row-gap: 15px;
+
+        /*
+            grid-template-areas: 
+            "header header header header"
+            "left left main main"
+            "left left  right right"
+            "footer footer footer footer";
+        */
+        
+        
+        /*
+
+        oszlop eltávolítás
+       
+        column-gap: 25px;  *szélesség
+        row-gap: 15px;  *magasság
+        */
+
+        /*
+        visszintes
+        grid-template-columns: 20% 20% 20% 20%;
+        grid-template-columns: repeat(5, 20%);
+        grid-template-columns: repeat(auto-fill, 350px);
+        grid-template-columns: 3ft 1fr 4 fr;
+        */
+
+        height: 400px;
+        margin: 5px;
+        
+        justify-content: center;
+        align-content: center; 
+        
+        /*
+        justify-content: center;
+        align-content: center;  * megszünteti a szülő elemet 
+        */
+    }
+
+    .container div{
+        padding: 15px;
+        /*
+        align-self: center;
+        justify-self: center;
+        */
+    }
+    /*
+    .container div{  * gyermek elem
+        padding: 15px;
+        align-self: center;
+        justify-self: center;  * mindent középre tesz
+    }
+    */
+    .elso{
+        background-color: aqua;
+    grid-area: header;
+    }
+
+        
+    /*
+    .elso{
+        background-color: aqua;
+        grid-column-start: 2;   * az első sórtól től a harmadikig tart
+        grid-column-end: 4;
+        grid-row-start: 1;  * elő oszlopokat adja össze
+        grid-row-end: 3;
+    }
+    */
+    .masodik{
+        background-color:blue;
+        grid-area: left;
+    }
+    .harmadik{
+        background-color: green;
+        grid-area: main;
+    }
+    .negyedik{
+        background-color: greenyellow;
+        grid-area: right;
+    }
+    .otodik{
+        background-color: red;
+        grid-area: footer;
+    }
+    
+    .hatodik{
+        background-color: purple;
+    }
+    </style>
+</head>
+<body>
+    <di class="container">
+        <div class="elso">Első</div>
+        <div class="masodik">Második</div>
+        <div class="harmadik">Hármadik</div>
+        <div class="negyedik">Negyedik</div>
+        <div class="otodik">Ötödik</div>
+        <!--
+        <div class="hatodik">Hatodik</div>
+        -->
+    </div>
+</body>
+</html>

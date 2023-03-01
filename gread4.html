@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS gread </title>
+    <style>
+   
+    
+    /*
+    @media  screen and (min-width:600px) and (max-width: 700px) {
+        .container{
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
+        height: 400px;
+        row-gap: 5px;
+        grid-template-areas: 
+            "header"
+            "nav"
+            "left"
+            "main"
+            "right"
+            "footer"
+            "footer2";      
+    }
+         .navigation{
+            grid-template-columns: 100%;
+            text-align: left;
+         }
+         
+        a{
+            display: block;
+    }
+}
+    
+    @media  screen and  (max-width: 900px) {
+        .container{
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
+        height: 400px;
+        row-gap: 15px;
+        grid-template-areas: 
+            "header header header"
+            "nav nav nav"
+            "left left main "
+            "right right main"
+            "footer footer footer"
+            "footer2 footer2 footer2";      
+    }
+         .navigation{
+            grid-template-columns: 100%;
+            text-align: left;
+         }
+}
+*/
+.container{
+    background-color:  greenyellow;
+    display: grid;
+    grid-template-columns: 3fr 1fr 2fr;
+   column-gap: 2px;
+   row-gap: 2px;
+    height: 360px;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-content:center;
+    text-align: center;
+    
+}
+
+
+
+.container div{
+    background-color: gainsboro;
+    padding: 10px;
+    border: 1px solid black;
+   
+}
+    
+    .elso{
+        background-color:blue;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        height: 50px;
+    }
+    
+    .masodik{
+        background-color:blue;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        height: 50px;
+
+    }
+    .harmadik{
+        background-color: green;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        height: 50px;
+    }
+    .negyedik{
+        background-color: greenyellow;
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 5;
+    }
+    .otodik{
+        background-color: red;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 4;
+        height: 50px;
+    }
+    
+    .hatodik{
+        background-color: purple;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 5;
+        grid-row-end: 5;
+        height: 10px;
+    }
+    .hetedik{
+        background-color: purple;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 6;
+        grid-row-end: 6;
+        height: 10px;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="elso">első</div>
+        <div class="masodik">második</div>
+        <div class="harmadik"> harmadik</div>
+        <div class="negyedik"> negyedik </div>
+        <div class="otodik"> ötödik</div>        
+        <div class="hatodik"> hatodik</div>     
+        <div class="hetedik"> hetedik</div>   
+    </div>
+
+
+</body>
+</html>

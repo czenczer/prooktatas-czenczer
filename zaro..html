@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS gread </title>
+    <style>
+   
+    
+.container{
+    background-color:  greenyellow;
+    display: grid;
+    grid-template-columns: 20%;
+    column-gap: 0.px;
+    row-gap: 0px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px; 
+    align-items: center;
+    align-content: center;
+}
+
+.container div{
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+    align-content: center;
+}
+    
+    .elso{
+        background-color: silver;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        height: 10px;
+    }
+    
+    .masodik{
+        background-color: orange;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start:2;
+        grid-row-end: 2;
+        height: 100px;
+        align-items: cente;
+    }
+    .harmadik{
+        background-color:burlywood;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        height: 100px;
+        
+    }
+    .negyedik{
+        background-color:cornflowerblue;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 3;
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="elso">Header</div>
+        <div class="masodik">Nav</div>
+        <div class="harmadik"> Content</div>
+        <div class="negyedik"> Footer </div>  
+    </div>
+
+
+</body>
+</html>

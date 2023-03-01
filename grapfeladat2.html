@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS gread </title>
+    <style>
+
+    .container{
+        background-color: azure;
+        display: grid;
+        grid-template-columns: repeat(4, 20%);
+       
+        column-gap: 25px;
+        row-gap: 15px;
+
+
+        height: 400px;
+        margin: 5px;
+        
+        justify-content: center;
+        align-content: center; 
+    }
+        
+
+    .container div{
+        padding: 15px;
+       
+    }
+   
+    .elso{
+        background-color: aqua;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        text-align: center;
+    }
+
+        
+    
+    .masodik{
+        background-color:slategray;
+        grid-template-columns: repeat(4, 20%);
+        
+      
+        }
+    .harmadik{
+        background-color: steelblue;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+    .negyedik{
+        background-color: greenyellow;
+        grid-row-start: 3;  
+        grid-row-end: 7;
+    }
+    .otodik{
+        background-color: slategray;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 4;  
+        grid-row-end: 7;
+        
+    }
+    
+    .hatodik{
+        background-color: steelblue;
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    .hetedik{
+        background-color: slategray;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <di class="container">
+        <div class="elso">Header Section</div>
+        <div class="masodik">Navigation Link</div>
+        <div class="masodik">Navigation Link</div>
+        <div class="masodik">Navigation Link</div>
+        <div class="harmadik">Hármadik</div>
+        <div class="negyedik">Negyedik</div>
+        <div class="otodik">ötödik</div>
+        <div class="hatodik">Summary:</div>
+        <div class="hetedik">Footer</div>
+        
+        
+    </div>
+</body>
+</html>

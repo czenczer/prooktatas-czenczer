@@ -1,0 +1,62 @@
+@import '_fejlec.scss';
+
+/*
+$alapszin:rgb(115, 115, 226);
+$masodlagosszin: yellow;
+*/
+
+$szinek: (
+    alapszin:rgb(115, 115, 226),
+    masodlagosszin: yellow
+);
+
+@for $i from 1 through 5 {
+    .oszlop#{$i} {padding: 5px*$i;}
+}
+
+
+
+
+
+
+
+
+h1 {
+    color: map-get($szinek, alapszin);
+}
+
+/*
+alt gr +é
+*/
+
+
+/*
+h1{
+    color: $alapszin;
+}
+h2{
+    color: $masodlagosszin;
+}
+
+li a {
+    color:$masodlagosszin;
+}
+
+.tablazat{
+    td{
+        background-color: $alapszin;
+    }
+}
+*/
+
+
+@function szovegszin( $szin){
+@if(lightness($szin) < 60){
+    @return green;
+} @else {
+    @return purple;
+}
+}
+h2{
+    color: szovegszin(red);
+}
