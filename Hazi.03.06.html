@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/_scsshazi.css">
+    <title>CSS gread </title>
+    <style>
+   
+    
+    .container{
+        grid-template-areas: 
+            "header header header header"
+            "left left left left"
+            "main main right right"
+            "footer footer right right"
+            "footer2 footer2 footer2 footer2"
+            "footer3 footer3 footer3 footer3";
+        background-color:  greenyellow;
+        display: grid;
+        column-gap: 5px;
+        row-gap: 5px;
+        height: auto;
+        margin: auto;
+        padding: 10px; 
+        align-content: center;
+        justify-content: center;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    p{
+        text-align: justify;
+    }
+    .container div{
+        padding: 30px;
+        border: 1px solid black;
+        text-align: center;
+        align-content: center;
+        text-align: justify;
+    }
+
+    ul{
+        list-style: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    li{
+        border: 5px solid red;
+    }
+
+    .elso{
+        background-color: aqua;
+    grid-area: header;
+    }
+    
+    .masodik{
+        background-color:blue;
+        grid-area: left;
+    }
+
+    .harmadik{
+        background-color: green;
+        grid-area: main;
+    }
+    .negyedik{
+        background-color: greenyellow;
+        grid-area: right;
+    }
+
+    .otodik{
+        background-color: red;
+        grid-area: footer;
+    }
+    
+    .hatodik{
+        background-color: purple;
+        grid-area: footer2;
+    }
+    .hetedik{
+        background-color: purple;
+        grid-area: footer3;
+    }
+    
+    @media screen and (max-width:550px){
+        .container{
+            grid-template-areas: 
+                 "header"
+                 "left"
+                 "right"
+                 "main"
+                 "footer"
+                "footer2"
+                "footer3";
+            background-color:  red;
+            display: grid;
+            grid-template-columns:repeat(1, 100%);
+            column-gap: 5px;
+            row-gap: 5px;
+            height: auto;
+            margin: auto;
+            padding: 10px; 
+            align-content: center;
+            justify-content: center;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        p{
+            text-align: justify;
+        }
+
+        
+
+    }
+    @media screen and (min-width:700px) and (max-width: 1000px) {
+        .container{
+             grid-template-areas: 
+                 "header left right main footer footer2 footer3";
+            background-color: silver;
+            display: grid;
+        }
+
+        p{
+         text-align: justify;
+        }
+        .container div{
+        padding: 10px;
+        border: 1px solid blue;
+        align-content: center;
+        text-align: center;
+        }
+    }
+   
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="elso">Első
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit accusamus perferendis saepe praesentium, eius doloribus incidunt quidem necessitatibus deserunt est numquam reprehenderit, repellat eligendi obcaecati perspiciatis sequi consectetur cum facere.
+            </p>
+        </div>
+        <div class="masodik">
+            <ul>
+                <a href="./zaro copy.html">Navigaciós link 1 </a>
+                <a href="./zaro copy.html">Navigaciós link 2 </a>
+                <a href="./zaro copy.html">Navigaciós link 3 </a>
+            </ul>
+        </div>
+        <div class="harmadik">Hármadik
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam est tenetur sint deleniti facere placeat officia repellendus, ut animi, iusto voluptatem optio inventore facilis sit at explicabo a. Autem, sunt.
+            </p>
+        </div>
+        <div class="negyedik">Negyedik
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta totam culpa optio, quibusdam modi tempora ex inventore sit quisquam doloremque repellat ratione fugiat illo molestiae eligendi, non earum incidunt? Consequuntur!
+            </p>
+        </div>
+        <div class="otodik">Ötödik
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae velit nam, mollitia, architecto placeat alias laboriosam impedit ut quibusdam rerum amet debitis dolor. Hic quo, quis cupiditate magnam ex ipsum.
+            </p>
+        </div>
+        <div class="hatodik">Hatodik
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae iste perferendis, atque labore officia nisi quisquam, porro veniam tenetur saepe dignissimos reprehenderit id quae aut pariatur molestiae minima cumque? Facere!
+            </p>
+        </div>
+        <div class="hetedik">Hetedik</div>
+    </div>
+<div class="szamozottclass10">
+SCSS
+</div>
+
+</body>
+</html>
+
+

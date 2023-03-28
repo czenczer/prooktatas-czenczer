@@ -5,6 +5,10 @@ $alapszin:rgb(115, 115, 226);
 $masodlagosszin: yellow;
 */
 
+
+/* sass  w3chool függvények */
+
+
 $szinek: (
     alapszin:rgb(115, 115, 226),
     masodlagosszin: yellow
@@ -15,9 +19,13 @@ $szinek: (
 }
 
 
+$lista: nap tenger palmafa naplemente pizza;
 
-
-
+.kepek {
+    @each $tema in $lista{
+        .kep#{$tema}{background-image:  image-url("kepek/#{$tema}.jpg");}
+    }
+}
 
 
 

@@ -1,13 +1,14 @@
 @charset "UTF-8";
 .header {
   height: 200px;
-  width: 50%;
+  width: 100%;
 }
 
 /*
 $alapszin:rgb(115, 115, 226);
 $masodlagosszin: yellow;
 */
+/* sass  w3chool függvények */
 .oszlop1 {
   padding: 5px;
 }
@@ -26,6 +27,22 @@ $masodlagosszin: yellow;
 
 .oszlop5 {
   padding: 25px;
+}
+
+.kepek .kepnap {
+  background-image: image-url("kepek/nap.jpg");
+}
+.kepek .keptenger {
+  background-image: image-url("kepek/tenger.jpg");
+}
+.kepek .keppalmafa {
+  background-image: image-url("kepek/palmafa.jpg");
+}
+.kepek .kepnaplemente {
+  background-image: image-url("kepek/naplemente.jpg");
+}
+.kepek .keppizza {
+  background-image: image-url("kepek/pizza.jpg");
 }
 
 h1 {

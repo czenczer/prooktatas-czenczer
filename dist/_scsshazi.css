@@ -1,0 +1,75 @@
+.class .a1 {
+  background-image: image-url("kepek/1.jpg");
+}
+.class .a2 {
+  background-image: image-url("kepek/2.jpg");
+}
+.class .a3 {
+  background-image: image-url("kepek/3.jpg");
+}
+.class .a4 {
+  background-image: image-url("kepek/4.jpg");
+}
+.class .a5 {
+  background-image: image-url("kepek/5.jpg");
+}
+.class .a6 {
+  background-image: image-url("kepek/6.jpg");
+}
+
+.b1 {
+  background-image: image-url("kepek/1.jpg");
+}
+
+.b2 {
+  background-image: image-url("kepek/2.jpg");
+}
+
+.b3 {
+  background-image: image-url("kepek/3.jpg");
+}
+
+.b4 {
+  background-image: image-url("kepek/4.jpg");
+}
+
+.b5 {
+  background-image: image-url("kepek/5.jpg");
+}
+
+.b6 {
+  background-image: image-url("kepek/6.jpg");
+}
+
+.container {
+  color: darkolivegreen;
+}
+
+.container div {
+  background-color: greenyellow;
+}
+
+.szamozottclass5 {
+  padding: 50px;
+}
+
+.szamozottclass6 {
+  padding: 60px;
+}
+
+.szamozottclass7 {
+  padding: 70px;
+}
+
+.szamozottclass8 {
+  padding: 80px;
+}
+
+.szamozottclass9 {
+  padding: 90px;
+}
+
+.szamozottclass10 {
+  padding: 100px;
+  background-color: blue;
+}
