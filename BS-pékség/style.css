@@ -1,0 +1,18 @@
+header{
+    background-image: url("./img/header.jpg");
+    background-position: center center;
+    background-size: cover;
+    margin: auto;
+    padding: 100px;
+    text-align: center;
+    color: white;
+    font-size: 400%;
+}
+main{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    background-color:whitesmoke;
+}
+footer{
+    background-color: red;
+    font-size: 200%;
+}
